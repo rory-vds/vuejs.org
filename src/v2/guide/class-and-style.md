@@ -110,7 +110,7 @@ This will always apply `errorClass`, but will only apply `activeClass` when `isA
 However, this can be a bit verbose if you have multiple conditional classes. That's why it's also possible to use the object syntax inside array syntax:
 
 ``` html
-<div v-bind:class="[{ active: isActive }, errorClass]"></div>
+<div v-bind:class="[{ activeClass: isActive }, errorClass]"></div>
 ```
 
 ### With Components
